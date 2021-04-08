@@ -1,0 +1,134 @@
+/* * {
+  border: 1px solid;
+} */
+.container {
+  min-height: 60vh;
+  width: 70%;
+  background: linear-gradient(to bottom left, #d7dddf, #c4d814);
+  border-radius: 10px;
+  
+}
+.main {
+  margin: 1rem auto;
+  display: flex;
+  justify-content: center;
+}
+
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 5em auto;
+  /* align-items: center; */
+}
+header {
+  font-size: 3em;
+  font-family: "Kiwi Maru", serif;
+  margin: 0.5em auto;
+  padding: 0 0.2em;
+  display: flex;
+  justify-content: center;
+}
+input {
+  border-radius: 5px;
+  height: 2rem;
+  width: 19rem;
+  background-color: rgb(255, 255, 255);
+  margin: 0 0.9em;
+  text-align: center;
+  font-family:  "Kiwi Maru", serif;
+  font-size: 1.1em;
+  display: inline-block;
+}
+.todos {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.toDoList {
+  border-radius: 10px;
+  min-width: 40%;
+ margin-right: 3rem;
+  list-style: none;
+}
+.todo{
+  margin:0.5rem;
+  background-color: rgb(221, 229, 235);
+  font-size: 1rem;
+  display: flex;
+justify-content: space-between;
+border-radius: 5px;
+align-items: center;
+
+
+}
+.todo li{
+  flex:1;
+  /* min-width: 20%;*/
+  padding:0 0.8rem; 
+  font-size: 1.2rem; 
+  font-family:  "Kiwi Maru", serif;
+
+}
+#btn1 {
+  background: linear-gradient(to top left, #4231db, #2e4142);
+  border: none;
+  color: aliceblue;
+  padding: 5px 15px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 1.2em;
+  border-radius: 5px;
+  background-color: rgb(255, 255, 255);
+  font-weight: bold;
+}
+.check-btn {
+  background: linear-gradient(to top left, #67db31, #2e4142);
+  border: none;
+
+  padding: 10px 5px;
+  /* text-align: center; */
+  text-decoration: none;
+  display: inline-block;
+  font-size: 0.7em;
+  border-radius: 5px;
+  color: rgb(255, 255, 255);
+ 
+}
+.check-btn:hover {
+  color: rgb(59, 37, 250);
+  border: none;
+  background-color:white;
+  padding: 10px 5px;
+  /* text-align: center; */
+  text-decoration: none;
+  display: inline-block;
+  font-size: 0.7em;
+  border-radius: 5px;
+
+}
+.delete-btn {
+  background: white;
+  border: none;
+  color: red;
+  padding: 10px 5px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 0.7em;
+  border-radius: 5px;
+ 
+}
+.delete-btn:hover {
+  background:red;
+  border: none;
+  color: white;
+  padding: 10px 5px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 0.7em;
+  border-radius: 5px;
+}
+

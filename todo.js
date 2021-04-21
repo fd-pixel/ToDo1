@@ -5,8 +5,13 @@ let toDoList = document.querySelector(".toDoList");
 //let todos= document.querySelector(".todos")
 //let checkButton = document.querySelector(".checkButton");
 
+content.focus();
 btn1.addEventListener("click", add);
 
+content.addEventListener("keyup",function(event){
+if (event.code == "Enter") add()
+
+})
 // functions
 function add() {
   if (content.value === ""){
@@ -31,13 +36,14 @@ function add() {
   toDoList.appendChild(todoDiv);
 
   content.value = "";
+  content.focus();
 
   //eventlisteners
   deleteButton.addEventListener("click", delFunc);
   checkButton.addEventListener("click", checkFunc);
   function delFunc() {
     toDoList.removeChild(todoDiv);
-    toDoList.style
+    //toDoList.style
   }
   function checkFunc() {
     newTodo.style.textDecoration = "line-through";
